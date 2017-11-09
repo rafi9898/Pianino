@@ -1,0 +1,32 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    font-weight: bolder;
+    font-style: italic;
+    color: #ddd;
+}
+
+
+.piano ul li {
+    display: inline-block;
+    text-align: center;
+    height: 200px;
+    background-color: #ddd;
+    width: 100px;
+}
+
+.piano ul {
+    text-align: center;
+    padding-top: 5%;
+}
+
+.piano ul li {
+    color: black;
+    font-size: 19px;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 5%;
+}
+

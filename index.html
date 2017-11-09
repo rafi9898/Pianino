@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Rafał Podraza">
+    <meta name="description" content="Piano">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Piano</title>
+</head>
+<body>
+    
+    <h1 class="text-center">Magic Piano</h1>
+    
+    <section class="piano">
+        <ul>
+            <li class="a" data-keyboard="65" onclick="play('a');">A</li>
+            <li class="s" data-keyboard="83" onclick="play('s');">S</li>
+            <li class="d" data-keyboard="68" onclick="play('d');">D</li>
+            <li class="f" data-keyboard="70" onclick="play('f');">F</li>
+            <li class="g" data-keyboard="71" onclick="play('g');">G</li>
+            <li class="h" data-keyboard="72" onclick="play('h');">H</li>
+            <li class="j" data-keyboard="74" onclick="play('j');">J</li>
+        </ul>
+    </section>
+    
+    <sectio id="audio_files">
+        <audio id="a" data-keyboard="65" src="sounds/s1.wav"></audio>
+        <audio id="s" data-keyboard="83" src="sounds/s2.wav"></audio>
+        <audio id="d" data-keyboard="68" src="sounds/s3.wav"></audio>
+        <audio id="f" data-keyboard="70" src="sounds/s4.wav"></audio>
+        <audio id="g" data-keyboard="71" src="sounds/s5.wav"></audio>
+        <audio id="h" data-keyboard="72" src="sounds/s6.wav"></audio>
+        <audio id="j" data-keyboard="74" src="sounds/s7.wav"></audio>
+    </sectio>
+    
+    <script
+    src="https://code.jquery.com/jquery-3.2.1.js"
+    integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+    crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
